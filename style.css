@@ -3,18 +3,20 @@
 /* Code Along, Part 1 */
 
 /* 1. Check the ratio of the background color and the color of the text.
-    We want the ratio 4:1 or higher. What is it? */
+    We want the ratio 4.5:1 or higher. What is it? */
 
+/*The contrast ratio is 1.02:1 */
 
 /* 2. Change the background color so that it contrasts well with the text. 
     What color do you think would provide a good contrast with red? 
     (Hint: Remember lighter colors contrast best with darker colors and vice versa). */
+/*black contrasts well with red*/
 
 /* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
-
+/* New contrast ratio is 4.73*/
 body {
     background-color: #d93f3f;
-    color: #eb2626;
+    color: #000000;
 }
 
 
@@ -24,8 +26,8 @@ body {
 
 .title {
     text-align: center;
-    color: #eb2626;
-    border: #eb2626 solid 5px;
+    color: #000000;
+    border: #000000 solid 5px;
     border-radius: 30px;
     font-family: 'Italianno', cursive;
     font-size: 90px;
