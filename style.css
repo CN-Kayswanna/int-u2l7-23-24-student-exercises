@@ -13,9 +13,9 @@
 /*black contrasts well with red*/
 
 /* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
-/* New contrast ratio is 4.73*/
+/* New contrast ratio is 21:1*/
 body {
-    background-color: #d93f3f;
+    background-color: #ffffff;
     color: #000000;
 }
 
@@ -26,8 +26,8 @@ body {
 
 .title {
     text-align: center;
-    color: #000000;
-    border: #000000 solid 5px;
+    color: red;
+    border: red solid 5px;
     border-radius: 30px;
     font-family: 'Italianno', cursive;
     font-size: 90px;
